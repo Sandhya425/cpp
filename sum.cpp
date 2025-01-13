@@ -9,12 +9,11 @@ int main(){
 
      char ch='a';
      char ch1='b';//char ch='\0'----------->prefer
-    //cout<<ch;
-   // cout<<sizeof(ch1)<<endl;
-   // cout<<sizeof(ch)<<endl;
-  // cout<<int(ch)<<endl;<--ascii value k liye -->
-    //cout<<int(ch1)<<endl;
-   // cout<<int(ch)+int(ch1)<<endl;
+  cout<<ch;
+   cout<<sizeof(ch1)<<endl;
+ cout<<sizeof(ch)<<endl;
+ cout<<int(ch)<<endl;//ascii value k liye
+cout<<int(ch1)<<endl; cout<<int(ch)+int(ch1)<<endl;
 
 
 
