@@ -97,16 +97,60 @@ int main(){
 
 // wap to check if the division of two num. rezults in an integer or a float.
 
-#handle case where the user attemt to divide by 0 and print appropriate error massage.
-int numerator,denomenetor;
-cin>> numerator>>denomenetor;
-if(denomenetor==0){
-  cout<<"denometer should not be 0 ";
-}
-else{
-  cout<<" the division of the numerator and denomenetor output is ans="<<numerator /denomenetor ;
+// #handle case where the user attemt to divide by 0 and print appropriate error massage.
+// int numerator,denomenetor;
+// cin>> numerator>>denomenetor;
+// if(denomenetor==0){
+//   cout<<"denometer should not be 0 ";
+// }
+// else{
+//   cout<<" the division of the numerator and denomenetor output is ans="<<numerator /denomenetor ;
 
-}
+// }
+   
 
+  //  int n;
+  //  cin>>n;
+  //  if(n<=50)
+  //    cout<<"the number is less than 50 n="<<n;
+  // else
+  //    cout<<"the number is greater than 50 n="<<n;
+
+  // int a,b;
+  // cin>>a>>b;
+  // if(a>b)
+  //   cout<<"a is greater";
+  // else if(a<b)
+  //   cout<<"b is greater";
+  // else
+  //   cout<<"both are equal";
+
+  // int n;
+  // cin>>n;
+  // if(n>=40)
+  //   cout<<"student is pass";
+  // else
+  //   cout<<"the student is fail";
+
+//   int a;
+//    cin>>a;
+//    if(a>=18)
+//     cout<<"eligible for vote";
+//  else
+//      cout<<"not eligible for vote";
+
+// int x,y;
+//    cin>>x>>y;
+//    if(x>y)
+//     cout<<"this producd is high lable";
+//    else
+//      cout<<"this is cheaper product";
+
+char m[]="aarull";
+char n[]="saani";
+if(m>n)
+  cout<<"the string is geater";
+  else
+    cout<<"n string";
     return 0;
 }
