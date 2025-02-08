@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string.h>
 using namespace std;
 int main(){
    // int num1,num2,num3;
@@ -146,11 +147,37 @@ int main(){
 //    else
 //      cout<<"this is cheaper product";
 
-char m[]="aarull";
-char n[]="saani";
-if(m>n)
-  cout<<"the string is geater";
-  else
-    cout<<"n string";
-    return 0;
+
+// string m="aarti";
+// string n="aarti";
+// if(m==n){
+//   cout<<"the strings are  equal";
+//   }
+//  else
+//     cout<<"strings are not equal";
+
+// int a,b,c;
+// cin>>a>>b>>c;
+// if(a>b &&a>c)
+//   cout<<"a is greater";
+// else if(b>a&&b>c)
+//  cout<<"b is greater";
+//  else
+// //   cout<<"c is greater";
+
+// int n;
+// cin>>n;
+// if(n>=10&&n<=50)
+// cout<<"the number is between 10 and 50";
+// else
+// cout<<"the number is not lie 10 and 50";
+// int year;
+// cin>>year;
+// if(year%400==0)
+//   cout<<"this is leap year";
+//   else if(year%4==0 &&year%100!=0)
+//     cout<<"this is leap year";
+//   else 
+//     cout<<"not leap year";
+//     return 0;
 }
