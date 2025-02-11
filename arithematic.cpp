@@ -197,5 +197,29 @@ int main()
 //     break;
 //   }
 // }
+
+// choose a secret number (for example=7),use while loop to let the user keep guessing they get right ,
+// print "correct" when they guess number.
+// int secret=7;
+// int gues;
+// while(1){
+//   cout<<"enter gues number";
+//   cin>>gues;
+//   if(secret==gues){
+//     cout<<"correct";
+//     break;
+//   }
+// }
+
+
+// #wap that take a integer and reverse it digit ,example-12345 output 54321.
+// int num;
+// cout<<"enter number";
+// cin>>num;
+// int count=0;
+// while(num!=0) {
+//   cout<<num%10;
+//   num=num/10;
+// }
   return 0;
 }
