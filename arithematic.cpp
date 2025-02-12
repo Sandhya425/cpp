@@ -221,5 +221,17 @@ int main()
 //   cout<<num%10;
 //   num=num/10;
 // }
+// #prime number 
+// int num=30;
+// int ans=0;
+// for(int i=2;i<num;i++){
+//   if(num%i==0){
+//     ans=1;
+//   }
+// }
+// if(ans==0)
+//   cout<<"it is a prime number";
+// else
+//   cout<<"not a prime";
   return 0;
 }
