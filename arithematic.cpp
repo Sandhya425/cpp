@@ -233,5 +233,19 @@ int main()
 //   cout<<"it is a prime number";
 // else
 //   cout<<"not a prime";
+
+
+// char ch;
+// cout<<"enter";
+// cin>>ch;
+// if(ch<97){
+//   cout<<"capital letter";
+// }
+//   else{
+//   cout<<"small letter";
+// }
+
+int a;
+printf("print a");
   return 0;
 }
