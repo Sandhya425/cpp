@@ -245,7 +245,8 @@ int main()
 //   cout<<"small letter";
 // }
 
-int a;
-printf("print a");
+int a,b,c;
+cin>>a>>b;
+cout<<a+b;
   return 0;
 }
