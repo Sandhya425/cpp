@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string.h>
+#include <math.h>
+#include <bits/stdc++.h>
 using namespace std;
 int main()
 {
@@ -12,8 +14,10 @@ int main()
   // cin>>num1>>num2;
   // cout<<num1/num2;
   // cout<<num1%num2;
+
   //// int n1,r=12;
   // cout<<"area of circle is"<<22/7*r*r;
+
   // int n,n2;
   // cin>>n>>n2;
   // cout<<n-n2;
@@ -23,6 +27,7 @@ int main()
   //   cout<<"number is odd";
   //   else
   //   cout<<"number is even";
+
   // int n;
   // cin>>n;
   // cout<<"the square of number is"<<n*n;
@@ -31,15 +36,18 @@ int main()
   // cin>>m>>n>>o>>p>>q;
   // avg=m+n+o+p+q/5.0;
   // cout<<"average of five number"<<avg;
+
   // int p,r,t;
   // int sm;
   // cin>>p>>r>>t;
   // sm=p*r*t/100;
   // cout<<"simple interest"<<sm;
+
   // int a,b,c,d,e,f;
   // cin>>a>>b>>c>>d>>e;
   // f=a+b+c+d+e/100*1/100;
   // cout<<"marks"<<f;
+1   
   // bool com,com2;
   // bool com2;
   // com=2>6;
@@ -245,9 +253,37 @@ int main()
 //   cout<<"small letter";
 // }
 
-int a,b,c;
-cin>>a>>b;
-c=a^b;
-cout<<c;
+// int a,b,c;
+// cin>>a>>b;
+// c=a^b;
+// cout<<c;
+
+// int a,b,c;
+// cin>>a;
+// b=a%2;
+// c=a/2;
+// cout<<b<<c;
+
+// char month='a';problem create
+// char north='b';
+// if(month==north)
+//   cout<<"both are equal";
+// else
+// cout<<"both are not equal";
+
+// float m=3.56;
+// float m=3.56;
+
+// #triagle is valid based on the sum of the angles.
+// int a=7,b=8,c=7;
+// if(a+b>c||b+c>a||c+a>b)
+
+int a=6,b;
+b=++a;
+int s=a++;
+int m=--a;
+int n=a--;
+cout<<b<<s<<m<<n;
+
   return 0;
 }
