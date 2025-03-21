@@ -320,6 +320,37 @@ int main()
 // else
 // cout<<"b is greater";
 
+// #WAP to compare the areas of two rectangles.
+// int l,w,l1,w1;
+// cin>>l>>w>>w1>>l1;
+// int rect1=l*w;
+// int rect2=l1*w1;
+// if(rect1>rect2)
+// cout<<"first rectangle is larger than second";
+
+// #WAP a program to find if either of two numbers is negative.
+// int m,n;
+// cin>>m>>n;
+// if((m<0)&&(n<0))
+// cout<<"two numbers is negative";
+
+// #WAP TO check if a number is even and lies between 20 and 50.
+// int n;
+// cin>>n;
+// if((n%2==0)&&(n>=20&&n<=50))
+// cout<<"number is even and lies between 20 and 50";
+// else
+// cout<<"number is not even and its not lies between 20 and 50";
+
+// #swapping two numbers using xor.
+// int a,b;
+// cin>>a>>b;
+// a=a^b;
+// b=a^b;
+// a=a^b;
+// cout<<a<<b;
+
+
 
   return 0;
 }
