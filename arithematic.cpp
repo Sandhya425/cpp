@@ -1,7 +1,7 @@
 #include <iostream>
-#include <string.h>
-#include <math.h>
-#include <bits/stdc++.h>
+// #include <string.h>
+// #include <math.h>
+// #include <bits/stdc++.h>
 using namespace std;
 int main()
 {
@@ -47,7 +47,7 @@ int main()
   // cin>>a>>b>>c>>d>>e;
   // f=a+b+c+d+e/100*1/100;
   // cout<<"marks"<<f;
-1   
+  
   // bool com,com2;
   // bool com2;
   // com=2>6;
@@ -67,6 +67,7 @@ int main()
   // cin>>a;
   // discount=(a*10/100)-a;
   // cout<<"the price is"<<discount;
+  
   // int distance=240;
   // int time=4;
   // int speed;
@@ -278,12 +279,47 @@ int main()
 // int a=7,b=8,c=7;
 // if(a+b>c||b+c>a||c+a>b)
 
-int a=6,b;
-b=++a;
-int s=a++;
-int m=--a;
-int n=a--;
-cout<<b<<s<<m<<n;
+// int a=6;
+// int b=++a;
+// int s=a++;
+// int m=--a;
+// int n=a--;
+// cout<<b<<s<<m<<n;
+
+// int a,b;
+// a=a+b;
+// b=a-b;
+// a=a-b;
+// cout<<a<<b;
+
+//char n='e';or 
+// char n;
+// cin>>n;
+// if((n>='a'&&n<='z')||(n>='A' &&n<='Z'))
+// cout<<"the number is character"<<n;
+// else if(n>='0'&&n<='9')
+// cout<<"this is digit"<<n;
+
+
+// int n;
+// cin>>n;
+// if(n%2==0)
+// cout<<"even";
+// else
+// cout<<"odd";
+
+// int m=200;
+// int minute=(m)/60;
+// int hour=(m)%60;
+// cout<<hour<<"remaining minutes"<<minute;
+
+// int a,b;
+// cin>>a>>b;
+// if(a>b)
+// cout<<"a is greater";
+// else
+// cout<<"b is greater";
+
 
   return 0;
 }
