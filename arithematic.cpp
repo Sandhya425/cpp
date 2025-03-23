@@ -313,12 +313,14 @@ int main()
 // int hour=(m)%60;
 // cout<<hour<<"remaining minutes"<<minute;
 
-// int a,b;
-// cin>>a>>b;
-// if(a>b)
+// int a,b,c;
+// cin>>a>>b>>c;
+// if((a>b)&&(a>c))
 // cout<<"a is greater";
-// else
+// else if((b>c)&&(b>a))
 // cout<<"b is greater";
+// else
+// cout<<"c is greater";
 
 // #WAP to compare the areas of two rectangles.
 // int l,w,l1,w1;
@@ -350,6 +352,38 @@ int main()
 // a=a^b;
 // cout<<a<<b;
 
+// int year;
+// cin>>year;
+// if(year%4==0){
+//   if(year%400==0)
+//     cout<<"leap";
+//   else if(year%100!=0)
+//     cout<<"leap year";
+  
+//   else
+//     cout<<"not laep yera";
+  
+// }  
+// else{
+// cout<<"not leap";
+// }
+
+
+// char r;
+// cin>>r;
+// if(r=='a'||r=='e'||r=='i'||r=='o'||r=='u'||r=='A'||r=='E'||r=='I'||r=='O'||r=='U')
+//   cout<<"vowel";
+// else
+// cout<<"consonent";
+
+
+// # display this AP-1,4,7,10,13 ...upto 'n' terms.
+// int n;                                   formula=a+(n-1) d   
+// cin>>n;                                      a=1,diff=3
+// for(int i=1;i<=3*n-2;i=i+3){                  
+//   //int m=n*i;                                 
+//   cout<<i<<" ";                                
+// }
 
 
   return 0;
