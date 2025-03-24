@@ -384,7 +384,45 @@ int main()
 //   //int m=n*i;                                 
 //   cout<<i<<" ";                                
 // }
+// #2nd way of 1,4,7,10,13,16 ...
+// int a=1,n;
+// cin>>n;
+// for(int i=1;i<=n;i++){
+//   cout<<a;
+//   a=a+3;
+// }
+// #odd number
+// int a=1,n;
+// cin>>n;
+// for(int i=1;i<=n;i++){
+//   cout<<a;
+//   a=a+2;                     
+// }
 
 
+// #display GP 1,2,4,8,16 .....'n' terms.
+// int n;
+// cin>>n;
+// int a=1;
+// for(int i=1;i<=n;i++){
+//   cout<<a;
+//  a=a*2;
+// }a=a*4,ans will be 3,12,48 ...
+
+// display this GP 100,97,93 ....which all terms positive.
+// int a=100;
+// for(int i=1;a>0;i++){
+//   cout<<a<<" ";
+//   a=a-3;
+// }
+
+// display this GP 100,50,25 ....12.5 'n' terms.kyuki bad m floating value aygi .
+// float a=100;
+// int n;
+// cin>>n;
+// for(int i=1;i<=n;i++){
+//   cout<<a<<" ";
+//   a=a*1/2;
+// }
   return 0;
 }
