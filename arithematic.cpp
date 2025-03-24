@@ -424,5 +424,13 @@ int main()
 //   cout<<a<<" ";
 //   a=a*1/2;
 // }
+
+// 1 to 100 odd number print with new concept.
+// for(int i=1;i<=100;i++){
+//   if(i%2==0){
+//     continue;
+//   }
+//   cout<<i<<" ";
+// }
   return 0;
 }
