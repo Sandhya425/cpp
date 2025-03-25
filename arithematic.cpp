@@ -432,5 +432,32 @@ int main()
 //   }
 //   cout<<i<<" ";
 // }
+
+
+// #determine the type of triangle (equalatrel,isosceles,sceles).1st me tino side equal hona,isosceles me 2 side same or ek side alag,sceles me tino side alag hogi.
+// int a,b,c;
+// cin>>a>>b>>c;
+// if(a+b+c==180){
+// if((a==b)&&(b==c)&&(c==a))
+//   cout<<"equalatrel";
+//    else if((a==b)||(b==c)||(c==a))
+//   cout<<"isosceles";
+// else
+//  cout<<"sceles";
+// }
+// else{
+//   cout<<"not valid triangle";
+// }
+
+
+// #check if a number ends with 0.
+// int a;
+// cin>>a;
+// a=a%10;
+// if(a==0){
+// cout<<"ends with 0";
+// }
+
+
   return 0;
 }
