@@ -458,6 +458,44 @@ int main()
 // cout<<"ends with 0";
 // }
 
+// #check if a year is century year;
+// int year;
+// cin>>year;
+// if(year%100==0)
+// cout<<"century year";
+// else
+// cout<<"not century year";
 
+// #determine the ticket price is based on the age group.
+// int age;
+// cin>>age;
+// if(age<=5)
+// cout<<"you are kid and ticket is free";
+// else if((age>=6)&& (age<=18))
+// cout<<"tticket fee is half";
+// else
+// cout<<"full ticket";
+
+// #validate password based on length.
+// int pass=2345678;
+// int count=0;
+// while(pass!=0){
+//   count=count+1;
+//   pass=pass/10;
+// }
+// if(count<8)
+//  cout<<"invalid password";
+//  else
+//  cout<<"valid password";
+
+// simulate the system password and username check.
+char uname[20]="deepak";
+char upass[20]="deepak01";
+char m,n;
+cin>>m>>n;
+if((uname==m)&&(upass==n))
+cout<<"valid";
+
+#simple banking system withdraw,exit,check balance.
   return 0;
 }
