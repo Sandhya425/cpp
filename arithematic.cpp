@@ -221,7 +221,7 @@ int main()
 // }
 
 
-// #wap that take a integer and reverse it digit ,example-12345 output 54321.
+//  #wap that take a integer and reverse it digit ,example-12345 output 54321.
 // int num;
 // cout<<"enter number";
 // cin>>num;
@@ -489,13 +489,48 @@ int main()
 //  cout<<"valid password";
 
 // simulate the system password and username check.
-char uname[20]="deepak";
-char upass[20]="deepak01";
-char m,n;
-cin>>m>>n;
-if((uname==m)&&(upass==n))
-cout<<"valid";
+// char uname[20]="deepak";
+// char upass[20]="deepak01";
+// char m,n;
+// cin>>m>>n;
+// if((uname==m)&&(upass==n))
+// cout<<"valid";
 
-#simple banking system withdraw,exit,check balance.
+// #simple banking system withdraw,exit,check balance.
+
+
+// int i=10;
+// do{
+//   cout<<i;
+//   i--;
+// }
+// // while(i>=0);
+
+// #armstrong number of three digit.
+// int num, oNum, rem, result = 0;
+// cout<<"Enter a three digit integer ";
+// cin>>num;
+// oNum = num;
+
+// while (oNum != 0) {
+//     rem = oNum % 10;
+//    result += rem * rem * rem;
+//    oNum /= 10;
+// }
+
+// if (result == num)
+//     cout<<"this  is an Armstrong number."<<num;
+// else
+//     cout<<"this  is not an Armstrong number."<<num;
+
+
+// #count the digit of number.
+// int n,count=0;
+// cin>>n;
+// while(n!=0){
+//   n=n/10;
+//   count++;
+// }
+// cout<<count;
   return 0;
 }
