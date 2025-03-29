@@ -532,5 +532,42 @@ int main()
 //   count++;
 // }
 // cout<<count;
+
+// #wap to print sum of digits of given number.like 2345,2+3+4+5=14.
+// int n,sum=0,rem;
+// cin>>n;
+// while(n!=0){
+//   rem=n%10;
+//   sum=sum+rem;
+//   n=n/10;
+// }
+// cout<<sum;
+
+
+// #wap to print the sum of even digits of given number.
+// int n,rem,sum=0;
+// cin>>n;
+// while(n!=0){
+//   rem=n%10;
+//   if(rem%2==0){
+//   sum=sum+rem;}
+//   n=n/10;
+// }
+// cout<<sum;
+
+
+// int n;
+// cin>>n;
+// while(n!=0){
+//  int rem=n%10;
+//   cout<<rem;
+//   n=n/10;
+// }
+
+int a=-1,b=1,c;
+for(int i=1;i<=10;i++){
+  c=a+b;
+  cout<<c;
+}
   return 0;
 }
