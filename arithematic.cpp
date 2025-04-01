@@ -564,10 +564,74 @@ int main()
 //   n=n/10;
 // }
 
-int a=-1,b=1,c;
+// #fabbonacci series.
+// int a=1,b=0,c;
+// for(int i=1;i<=10;i++){
+//   c=a+b;
+//   cout<<c<<" ";
+//   a=b;
+//   b=c;
+// }
+//cout<<c<<" ";
+
+//#two number are enterd through the keyboard .WAP to find the value 
+//of one number raised to the power of another.
+// int a=2,b=4;
+// int power=1;
+// for(int i=1;i<=b;i++)
+// power=power*a;
+// cout<<power;
+
+
+// print all the ascii values and their equivalent
+//  character of 26 alphabates using a while loop
+//type casting:
+// int x=65;
+// cout<<x<<" ";
+// char ch=(char)x;
+// cout<<ch;
+
+// for(int i=65;i<=90;i++){
+// cout<<i<<" ";
+// char s=(char)i;--typecasting
+// cout<<s<<"\n";}
+
+//for(int i=1;i<=5;i++){
+  //for(int j=5;j>=i;--j){
+   // cout<<" ";
+//   }
+//   for(int j=1;j<=i;j++){
+//     cout<<"*";
+//   }
+//   for(int j=2;j<=i;j++){
+//   cout<<"*";
+// }
+// cout<<"\n";
+// }
+
+// for(int i=1;i<=5;i++){
+//   for(int j=1;j<=5;j++){
+//     if(i>=2&&i<=4){
+//       if(j==1||j==4)
+//         cout<<"*";
+//       else
+//         cout<<" ";
+//     }
+//     else
+//       cout<<"*";
+//   }
+//   cout<<"\n";
+// }
+
+
 for(int i=1;i<=10;i++){
-  c=a+b;
-  cout<<c;
+  for(int j=1;j<=10;j++){
+    if(i%2==0)
+      cout<<"*";
+      else
+      cout<<" ";
+  }
+  cout<<"\n";
 }
   return 0;
 }
