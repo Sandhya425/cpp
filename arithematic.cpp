@@ -634,5 +634,10 @@ int main()
 //   }
 //   cout<<"\n";
 // }
-  return 0;
-}
+
+
+// int a;dekhna he
+// int b=size of(a);
+// cout<<b;
+//   return 0;
+// }
