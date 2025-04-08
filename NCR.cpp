@@ -2,14 +2,7 @@
 using namespace std;
 void yrr();
 int main(){
-//ncr=n!/r!(n-r)!
-// ncr fun();
-// return 0;
-// }
-// void ncr fun(){
-//     int n,r;
-//     cin>>n>>r;
-// for(int i=1;i<=n;i++){
+
     yrr();
     return 0;
  }
