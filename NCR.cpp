@@ -2,7 +2,6 @@
 using namespace std;
 // void yrr();
 // int main(){
-
 //     yrr();
 //     return 0;
 //  }
@@ -21,19 +20,44 @@ using namespace std;
 //  cout<<"found";
 //  else
 //  cout<<"not found";
-
 // }
-// void factor(int);
-// int main(){
+
+// //print NCR.formula=n!/r!*n(n-1)!
+//    int factorial(int);
+//    int main(){
 //     int n,r;
 //     cin>>n>>r;
-//     factor(n)/(factor(r)factor(n-r));
+//     int ncr=factorial(n)/(factorial(r)*factorial(n-r));
+//     cout<<ncr;
 //     return 0;
 // }
-// void factor(int n){
-//     // int fact=1;
+// int factorial(int n){
+//      int fact=1;
 //     for(int i=1;i<=n;i++){
 //         fact =fact*i;
 //     }
-//     cout<<fact;
+//     return fact;
 // }
+
+
+// pascal triangle.
+// int factorial(int);
+// int main(){
+//     int n;
+//     cin>>n;
+// for(int i=0;i<=n;i++){
+//     for(int j=0;j<=i;j++){
+//         int icj=factorial(i)/(factorial(j)*factorial(i-j));
+//         cout<<icj;
+//     }
+//     cout<<"\n";
+// }
+// return 0;
+// }
+// int factorial(int n){
+//          int fact=1;
+//         for(int i=1;i<=n;i++){
+//             fact =fact*i;
+//         }
+//         return fact;
+//     }

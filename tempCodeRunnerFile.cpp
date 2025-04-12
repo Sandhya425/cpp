@@ -1,0 +1,1 @@
+void s(int,int,int,int,int,int);

@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-
+// void aru(int,int ,int,int,int,int);
     // int arr[]={1,3,4,5,6};
     // int y[5];
     // int sum=0,sumodd=0;
@@ -59,3 +59,26 @@ using namespace std;
 // output(arr,len);
 // return 0;
 // }
+
+
+// int arr[]={1,2,3};
+// int arr1[]={2,4,5,5,6};
+// int arr2[]={};
+// int len=sizeof(arr)/4;
+// int len1=sizeof(arr1)/4;
+// int flen=len+len1;
+// aru(arr[],arr1[],arr2[],len,len1,flen);
+// return 0;}
+// void aru(int arr[],int arr1[],int arr2[],int len,int len1,int flen){
+//  for(int i=0;i<len;i++)
+//  cout<<arr[i]<<" ";
+//  for(int j=0;j<len1;j++)
+// cout<<arr1[j]<<" ";
+// for(int k=0;k<flen;k++){
+// arr2[k]=arr[i]+arr1[j];}
+// cout<<arr2[k];
+// }
+
+
+  
+
