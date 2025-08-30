@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(){
+
 //     int n;
 //     cin>>n;
 //     for(int i=1;i<=n;i++){
@@ -71,3 +71,32 @@ int main(){
 //   cout<<"\n";
 // }
 // }
+
+
+
+void rotate(int arr[],int n){
+    int last=arr[n-1];
+    for(int i=n-2;i>=0;i--){
+        arr[i+1]=arr[i];
+    }
+    arr[0]=last;
+//     for(int i=0;i<=n;i++){
+//     cout<<arr[i];
+// }
+}
+int main(){
+int arr[1000];
+int n;
+cout<<"enetr n";
+cin>>n;
+cout<<"enetr elements";
+for(int i=0;i<=n;i++){
+    cin>>arr[i];
+}
+rotate(arr,n);
+for(int i=0;i<n;i++){
+    cout<<arr[i];
+}
+return 0;
+
+}
