@@ -80,9 +80,6 @@ void rotate(int arr[],int n){
         arr[i+1]=arr[i];
     }
     arr[0]=last;
-//     for(int i=0;i<=n;i++){
-//     cout<<arr[i];
-// }
 }
 int main(){
 int arr[1000];
@@ -90,13 +87,13 @@ int n;
 cout<<"enetr n";
 cin>>n;
 cout<<"enetr elements";
-for(int i=0;i<=n;i++){
+for(int i=0;i<n;i++){
     cin>>arr[i];
 }
 rotate(arr,n);
+cout<<"rotate array";
 for(int i=0;i<n;i++){
     cout<<arr[i];
 }
 return 0;
-
 }

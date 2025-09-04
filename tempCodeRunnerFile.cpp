@@ -1,5 +1,1 @@
-    }
-   }
-   cout<<index;
-   return 0;
-}
+  int page=0,count=1;
