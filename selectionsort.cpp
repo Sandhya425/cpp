@@ -107,15 +107,19 @@
 // }
 
 
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 int main(){
-    int arr[]={35,78,8,5,1};
-    int index=arr[0];
-        for(int j=0;j<4;j++){
-            if(arr[j]>index){
-                index=arr[j];
+    int arr[]={9,7,3,1,6};
+    for(int i=0;i<5-2;i++){
+        int index=0;
+        for(int j=i+1;j<5;j++){
+            if(arr[j]<arr[index]){
+             index=j;
             }
         }
-    cout<<index;
+        arr[i]=arr[index];
+    }
+    for(int i=0;i<5;i++){
+    printf("%d",arr[i]);
+    }
 }
